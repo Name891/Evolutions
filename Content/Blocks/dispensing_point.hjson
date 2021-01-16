@@ -1,0 +1,12 @@
+type: Router
+name:Dispensing point
+description: Huge router
+health:300
+size:3
+category: distribution
+requirements: [
+  copper/50
+  lead/25
+  titanium/10
+]
+reseach:distributor

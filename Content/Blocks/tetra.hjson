@@ -1,0 +1,45 @@
+type: ItemTurret
+name: Tetra
+description: Better than trio
+health: 1450
+size: 3
+reload: 0.2
+range: 170
+inaccuracy: 10
+rotatespeed: 15
+ammoTypes: {
+  copper: {
+    speed: 2
+    damage: 15
+    bulletWidth: 4
+    bulletHeight: 5
+    ammoMultiplier: 6
+  }
+  pyratite: {
+    speed: 3
+    damage: 19
+    splashDamage: 8
+    splashDamageRadius: 4
+    bulletWidth: 14
+    bulletHeight: 14
+    ammoMultiplier: 9
+  }
+ silicon: {
+    speed: 4
+    damage: 16
+    homingPower: 0.7
+    homingRange: 35
+    bulletWidth: 14
+    bulletHeight: 14
+    ammoMultiplier: 9
+  }
+}
+requirements: [
+  copper/90
+  lead/60
+  silicon/40
+  titanium/60
+
+]
+category: turret
+research: trio

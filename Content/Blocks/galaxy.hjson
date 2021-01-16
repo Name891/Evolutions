@@ -1,0 +1,45 @@
+type: ItemTurret
+name: Galaxy
+description: Shoot large bomb
+health: 2560
+size: 4
+reload: 25
+range: 50
+inaccuracy: 0
+rotatespeed: 8
+ammoTypes: {
+  thorium: {
+    speed: 0.2
+    damage: 190
+    splashDamage: 190
+    splashDamageRadius: 35
+    frontColor: 000000
+    bulletWidth: 100
+    shootEffect: flakExplosionBig
+    bulletHeight: 100
+    bulletSprite:galaxylaser
+    backColor: 000000
+    ammoMultiplier: 6
+  }
+ surge-alloy: {
+    speed: 0.1
+    damage: 250
+    splashDamage: 250
+    shootEffect: flakExplosionBig
+    splashDamageRadius: 25
+    frontColor: 000000
+    backColor: 000000
+    bulletWidth: 100
+    bulletHeight: 100
+    bulletSprite:galaxylaser
+    ammoMultiplier: 8
+  }
+}
+requirements: [
+  copper/900
+  graphite/400
+  thorium/300
+  surge-alloy/100
+]
+category: turret
+research: fuse

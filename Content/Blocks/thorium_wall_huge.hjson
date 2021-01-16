@@ -1,0 +1,10 @@
+type: Wall
+name:Huge thorium wall
+description: Huge wall what deflect small bullets
+health:7200
+size:3
+category: defense
+requirements: [
+  thorium/54
+]
+reseach:thorium-wall-large
